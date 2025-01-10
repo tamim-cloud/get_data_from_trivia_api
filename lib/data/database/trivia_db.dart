@@ -9,9 +9,11 @@ class ConvertJsonToTriviaModel {
     try {
       final data = await apiService.getApiData(url);
       // print(data);
-      return TriviaModel.fromJson(data);
+      return  TriviaModel.fromJson(data);
     } on Exception catch (e) {
       throw Exception(e.toString());
     }
   }
+  
+
 }

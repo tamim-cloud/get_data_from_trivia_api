@@ -22,6 +22,7 @@ class TriviaModel {
     }
     return data;
   }
+
 }
 
 class Results {
@@ -59,4 +60,5 @@ class Results {
     data['incorrect_answers'] = incorrectAnswers;
     return data;
   }
+
 }
